@@ -24,24 +24,42 @@
     <section class="contenedor formulario">
         <div class="formulario__grid">
             <div class="formulario__contenido">
-                <h2>Pedi tu comida preferida de tu lugar preferido</h2>
+                <h2 class="formulario__heading">Pedi tu comida preferida de tu lugar preferido</h2>
                 <form class="formulario__buscar">
 
                     <div class="formulario__buscar">
                         <div class="formulario__campo">
                             <label for="restaurante" class="formulario__label">Restaurante</label>
-                            <input type="text" placeholder="Ingrese Restaurante" id="restaurante">
+                            <input class="formulario__input" type="text" placeholder="Ingrese Restaurante" id="restaurante">
                         </div>
                         <div class="formulario__campo">
-                            <label for="plato" class="formulario__label">Restaurante</label>
-                            <input type="text" placeholder="Deseo comer..." id="plato">
+                            <label for="plato" class="formulario__label">Quiero comer</label>
+                            <input class="formulario__input" type="text" placeholder="Deseo comer..." id="plato">
                         </div>
                     </div>
                     <input type="submit" class="formulario__submit" value="Buscar">
                 </form>
             </div>
-            <div class="formulario__imagen">
-                <img src="build/img/dibujo_repartidor.svg" alt="repartidor">
+            <div class="formulario__imagen-contenedor">
+                <img src="build/img/dibujo_repartidor.svg"  class="formulario__imagen" alt="repartidor">
+            </div>
+        </div>
+    </section>
+
+    <section class="pasos">
+        <img src="build/img/wave.svg" alt="imagen olas" class="pasos__wave">
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading">¿Como funciona?<span class="pasos__heading--descripcion">en 3 simples pasos</span></h2>
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_1.png" alt="imagen de pasos app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_2.png" alt="imagen de pasos app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_3.png" alt="imagen de pasos app">
+                </div>
             </div>
         </div>
     </section>
